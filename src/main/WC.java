@@ -63,7 +63,7 @@ public class WC {
                             break;
                         }
                         default:
-                            System.out.println("指令错误");
+                            System.out.println("指令错误。");
                     }
                     temp++;
                 }
