@@ -47,7 +47,7 @@ public class Counter {
             Matcher matcher0 = pattern0.matcher(lineTemp);
             if (matcher0.find()) commentLines++;
 
-            Pattern pattern1 = Pattern.compile("/\\*");     //多行注释，直到遇到*/前，注释行数+1
+            Pattern pattern1 = Pattern.compile("/\\*");     //多行注释，从"/*"开始，直到遇到"*/"前，注释行数+1
             Pattern pattern2 = Pattern.compile("\\*/");
             Matcher matcher1 = pattern1.matcher(lineTemp);
             Matcher matcher2 = pattern2.matcher(lineTemp);
@@ -60,7 +60,7 @@ public class Counter {
 
             //统计代码行
             pattern1 = Pattern.compile("\\S{2,}");  //非空白字符在两个或两个以上
-            pattern2 = Pattern.compile("^\\s*//");  //不能以任意数量的空白字符接“//”开头
+            pattern2 = Pattern.compile("^\\s*//");  //不能以任意数量的空白字符接"//"开头
             matcher1 = pattern1.matcher(lineTemp);
             matcher2 = pattern2.matcher(lineTemp);
             if (matcher1.find() && !matcher2.find()) codeLines++;
