@@ -14,21 +14,21 @@ public class Counter {
     String path = null;
 
     public Counter(String filePath) throws IOException {
-        //temp储存遍历到的当前字符，wordFlag用于判断词数
+        //temp储存当前字符，wordFlag用于判断统计词数
         int temp, wordFlag = -1;
         path = filePath;
         FileReader fileReader = new FileReader(path);
-        //按字符遍历文件
+        //按字符读取文件
         while ((temp = fileReader.read()) != -1){
             //统计字符数
             chars++;
-            //统计词数，当遇到字母后遇到非字母时，词数+1
+            //统计词数，当英文字符后遇到非英文字符时，词数+1
             if ((temp >= 'a' && temp <= 'z') || (temp >= 'A' && temp <= 'Z')) wordFlag = temp;
             else if (temp != wordFlag && wordFlag != -1){
                 words++;
                 wordFlag = -1;
             }
-            //统计行数
+            //统计行数，遇到一个换行符，行数+1
             if (temp == '\n') lines++;
         }
 
@@ -60,7 +60,7 @@ public class Counter {
 
             //统计代码行
             pattern1 = Pattern.compile("\\S{2,}");  //非空白字符在两个或两个以上
-            pattern2 = Pattern.compile("^\\s*//");  //不能以任意数量的空白字符接“//”开头
+            pattern2 = Pattern.compile("^\\s*//");  //不能以任意数量的空白字符接"//"开头
             matcher1 = pattern1.matcher(lineTemp);
             matcher2 = pattern2.matcher(lineTemp);
             if (matcher1.find() && !matcher2.find()) codeLines++;

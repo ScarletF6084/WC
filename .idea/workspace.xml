@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03c62d5e-3e91-4cef-a1c9-5a12c43e6cf7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WC/counter/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WC/counter/Counter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WC/main/WC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WC/main/WC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WC/test/char.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WC/test/empty.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WC/test/test.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WC/test/word.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/counter/Counter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/WC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/char.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/empty.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/word.c" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +28,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/WC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+            <state relative-caret-position="270">
+              <caret line="31" column="79" lean-forward="true" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/counter/Counter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1053">
+              <caret line="62" column="71" selection-start-line="62" selection-start-column="71" selection-end-line="62" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2590#2591#0" expanded="true" />
+                <element signature="e#2644#2645#0" expanded="true" />
+                <element signature="e#2676#2677#0" expanded="true" />
+                <element signature="e#2730#2731#0" expanded="true" />
+                <element signature="e#2769#2770#0" expanded="true" />
+                <element signature="e#2832#2833#0" expanded="true" />
+                <element signature="e#2868#2869#0" expanded="true" />
+                <element signature="e#2928#2929#0" expanded="true" />
+                <element signature="e#2965#2966#0" expanded="true" />
+                <element signature="e#3026#3027#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,8 +78,8 @@
         <option value="$PROJECT_DIR$/src/main/Basis.java" />
         <option value="$PROJECT_DIR$/src/function/Basis.java" />
         <option value="$PROJECT_DIR$/src/counter/Basis.java" />
-        <option value="$PROJECT_DIR$/src/counter/Counter.java" />
         <option value="$PROJECT_DIR$/src/main/WC.java" />
+        <option value="$PROJECT_DIR$/src/counter/Counter.java" />
       </list>
     </option>
   </component>
@@ -77,6 +111,12 @@
               <item name="WC" type="b2602c69:ProjectViewProjectNode" />
               <item name="WC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="counter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -89,7 +129,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584889283367" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585033970236" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -149,7 +189,7 @@
       <workItem from="1584885587443" duration="1664000" />
       <workItem from="1584887284809" duration="224000" />
       <workItem from="1584887781620" duration="777000" />
-      <workItem from="1584946121734" duration="1344000" />
+      <workItem from="1584946121734" duration="10700000" />
     </task>
     <task id="LOCAL-00001" summary="WC">
       <created>1584888437189</created>
@@ -158,11 +198,32 @@
       <option name="project" value="LOCAL" />
       <updated>1584888437189</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="WC">
+      <created>1584947756329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584947756329</updated>
+    </task>
+    <task id="LOCAL-00003" summary="WC">
+      <created>1584947839833</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584947839833</updated>
+    </task>
+    <task id="LOCAL-00004" summary="WC">
+      <created>1584947847934</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584947847934</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55166000" />
+    <option name="totallyTimeSpent" value="64522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -177,7 +238,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3696884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.41926345" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398017" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -186,7 +247,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.3696884" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -228,10 +289,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/WC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="31" column="79" lean-forward="true" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/counter/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="1053">
+          <caret line="62" column="71" selection-start-line="62" selection-start-column="71" selection-end-line="62" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2590#2591#0" expanded="true" />
@@ -245,13 +313,6 @@
             <element signature="e#2965#2966#0" expanded="true" />
             <element signature="e#3026#3027#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/WC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
         </state>
       </provider>
     </entry>

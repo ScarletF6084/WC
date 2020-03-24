@@ -27,9 +27,9 @@ public class WC {
                     case "-w":flag[i] = 'w';break;
                     case "-l":flag[i] = 'l';break;
                     case "-a":flag[i] = 'a';break;
-                    case "exit": System.exit(0);
+                    case "-exit": System.exit(0);
                     default: {
-                        System.out.println("输入有误，可用命令为：-c, -w, -l, -a, exit");
+                        System.out.println("输入有误，可用命令为：-c, -w, -l, -a, -exit");
                     }
                 }
                 i++;
