@@ -14,7 +14,7 @@ public class Counter {
     String path = null;
 
     public Counter(String filePath) throws IOException {
-        //temp储存遍历到的当前字符，wordFlag用于判断词数
+        //temp储存遍历到的当前字符，wordFlag用于判断统计词数
         int temp, wordFlag = -1;
         path = filePath;
         FileReader fileReader = new FileReader(path);
@@ -28,7 +28,7 @@ public class Counter {
                 words++;
                 wordFlag = -1;
             }
-            //统计行数
+            //统计行数，当遇到换行符后，行数+1
             if (temp == '\n') lines++;
         }
 
